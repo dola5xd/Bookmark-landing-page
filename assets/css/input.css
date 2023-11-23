@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  max-width: 500px;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0 6px 20px 0px #bdbdbd7a;
+  border-radius: 10px;
+}
+.card h1 {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 20px 0 0 0;
+  color: hsl(229 31% 21%);
+}
+.card h3 {
+  color: hsl(229 8% 60%);
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+.card img[alt="dots"] {
+  margin: 20px 0;
+}
+.card button {
+  background-color: hsl(231 69% 60%);
+  width: 80%;
+  padding: 10px 0;
+  color: white;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 0.9em;
+  transition: all 0.7s;
+}
+.card button:hover {
+  background-color: #fa5757;
+}
+.reveal {
+  opacity: 1;
+  transform: translateX(0);
+}
+.qu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  transition: all 0.7s;
+}
+.qu h1 {
+  font-weight: 500;
+  color: hsl(229 31% 21%);
+  font-size: 0.9em;
+  transition: all 0.7s;
+}
+.qu svg {
+  cursor: pointer;
+  transition: all 0.7s;
+}
+.an {
+  padding-top: 20px;
+  color: hsl(229 8% 60%);
+  font-weight: 400;
+  transition: all 0.7s;
+  line-height: 30px;
+  font-size: 0.8em;
+}
